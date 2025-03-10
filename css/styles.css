@@ -105,7 +105,7 @@ body {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
@@ -119,12 +119,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white);
+  cursor: pointer;
 }
 .hero-button-accent:hover {
-  background: var(--navy-blue);
+  background: var(--ocean);
 }
 .hero-button-accent:focus {
-  background: var(--green);
+  background: var(--ocean);
 } 
 
 /* #endregion */
@@ -136,7 +137,7 @@ body {
 .benefits-list {
 
 }
-.benefits-list-item {
+.benefits-list-title {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
@@ -162,11 +163,21 @@ body {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: var(--navy-blue);
 }
+
+.team-list {
+  
+}
+
+.team-list-li {
+  background-color: var(--white);
+}
+
 .team-list-item {
   font-family: var(--font-family);
   font-weight: 500;
@@ -194,9 +205,10 @@ body {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: var(--navy-blue);
 }
 
@@ -233,19 +245,13 @@ body {
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
   }
 
-  .logo-footer span {
-    font-family: var(--second-family);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  .span-footer {
     color: var(--cloud);
   }
 
