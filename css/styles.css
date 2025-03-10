@@ -20,7 +20,8 @@
 
 body {
   font-family: var(--main-family);
-  color: #2E2F42;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 /* #region Header */
@@ -111,7 +112,6 @@ body {
 }
 
 .hero-button {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: var(--iris);
   font-family: var(--font-family);
   font-weight: 500;
