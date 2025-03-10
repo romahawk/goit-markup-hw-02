@@ -62,7 +62,7 @@ body {
   color: var(--navy-blue);
 }
 
-.header-nav-list-item {
+.header-nav-list-text {
   color: var(--navy-blue);
 }
 
@@ -70,7 +70,7 @@ body {
   color: var(--ocean);
 }
 .header-nav-list-text:focus {
-  color: var(--green);
+  color: var(--ocean);
 }
 
 .address {
@@ -85,11 +85,12 @@ body {
   color: var(--slate);
 }
 
-.address-list-item {
+.address-list-text {
+  color: var(--slate);
 }
 
 .address-list-text:hover {
-  color: var(--slate);
+  color: var(--ocean);
 }
 .address-list-text:focus {
   color: var(--ocean);
