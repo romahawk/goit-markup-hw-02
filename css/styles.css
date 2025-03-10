@@ -20,8 +20,8 @@
 
 body {
   font-family: var(--main-family);
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--slate);
+  background-color: var(--white);
 }
 
 /* #region Header */
@@ -37,7 +37,7 @@ body {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
@@ -63,7 +63,7 @@ body {
 }
 
 .header-nav-list-item {
-  color: var();
+  color: var(--navy-blue);
 }
 
 .header-nav-list-text:hover {
@@ -74,6 +74,7 @@ body {
 }
 
 .address {
+  font-style: normal;
 }
 
 .address-list {
@@ -88,10 +89,10 @@ body {
 }
 
 .address-list-text:hover {
-  color: var(--ocean);
+  color: var(--slate);
 }
 .address-list-text:focus {
-  color: var(--green);
+  color: var(--ocean);
 }
 
 /* #endregion */
